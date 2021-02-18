@@ -31,7 +31,7 @@ class _NotificationAppState extends State<NotificationApp> {
   void initState() {
     // TODO: implement initState
     super.initState();
-    var androidInitialise = new AndroidInitializationSettings('ic_launcher');
+    var androidInitialise = new AndroidInitializationSettings('ic_stat_name');
     var iOSInitialise = new IOSInitializationSettings();
     var initializationSettings = new InitializationSettings(
         android: androidInitialise, iOS: iOSInitialise);
